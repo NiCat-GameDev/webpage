@@ -1,17 +1,35 @@
-body{
-    width: 95%;
-    margin: auto;
+
+html{
+    font-size: 10px !important;
 }
 
+.header{
+    background-image: url('../image/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+}
 
-@media (min-width: 770px){
-    .figure{
-        position: relative;
-    }
-    .navbar{
-        position: absolute;
-        top: 5%;
-        right: 5px;
+.logo{
+    width: 20rem;
+    height: 20rem;
+}
 
+.paypal{
+    top: 80%;
+    right: 0;
+    left: 75%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 320px){
+    html{
+        font-size: 5px !important;
     }
+
+    .navbar-toggler{
+        background-color: white;
+    }
+
 }
